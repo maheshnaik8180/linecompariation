@@ -45,9 +45,18 @@ class LineComparisonProb{
 		System.out.println("\n line1 is gretaer than line2. ");
 		else
 		
-         System.out.println("\n The lines are not Equal. ");        
-	 System.out.println("\n Line2 is gretaer than Line1. ");	
+              
+	 System.out.println("\n Line2 is gretaer than Line1. ");
+	
 
+}
+	public static void compareTo(int length1, int length2){
+       		if(length1==length2)
+			System.out.println("\n The lines are Equal. ");
+		else if (length1>length2)
+        		System.out.println("\n line1 is gretaer than line2. ");
+		else
+			System.out.println("\n Line2 is gretaer than Line1. ");	
 }
 }
 
